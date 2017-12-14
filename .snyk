@@ -1,0 +1,244 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:debug:20170905':
+    - standard > standard-format > esformatter > debug:
+        reason: None given
+        expires: '2018-01-13T18:23:44.736Z'
+    - standard > standard-format > esformatter > debug:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+  'npm:growl:20160721':
+    - gulp-mocha > mocha > growl:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - jasmine-node > jasmine-growl-reporter > growl:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-mocha > mocha > growl:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - jasmine-node > jasmine-growl-reporter > growl:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+  'npm:mime:20170907':
+    - browser-sync > serve-static > send > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - codecov.io > request > form-data > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - browser-sync > browser-sync-ui > weinre > express > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - browser-sync > serve-static > send > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - codecov.io > request > form-data > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - browser-sync > browser-sync-ui > weinre > express > mime:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+  'npm:qs:20170213':
+    - codecov.io > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - phantomjs > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - browser-sync > browser-sync-ui > weinre > express > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - codecov.io > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - phantomjs > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - browser-sync > browser-sync-ui > weinre > express > qs:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+  'npm:tunnel-agent:20170305':
+    - codecov.io > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - phantomjs > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - optipng-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.737Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - codecov.io > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - phantomjs > request > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - optipng-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.738Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.739Z'
+    - optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.739Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.739Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.739Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        reason: None given
+        expires: '2018-01-13T18:23:44.739Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - codecov.io > request > hawk:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:minimatch:20160620':
+    - jasmine-node > gaze > fileset > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > rimraf > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - jasmine-node > gaze > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+    - jasmine-node > gaze > fileset > glob > minimatch:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:ms:20170412':
+    - browser-sync > connect > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > connect > finalhandler > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > serve-index > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > serve-static > send > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > engine.io > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-adapter > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > engine.io > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > serve-static > send > debug > ms:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:request:20160119':
+    - codecov.io > request:
+        patched: '2017-12-14T18:23:44.781Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request:
+        patched: '2017-12-14T18:23:44.781Z'
+    - phantomjs > request:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2017-12-14T18:23:44.781Z'
+    - gulp-jade > jade > transformers > uglify-js:
+        patched: '2017-12-14T18:23:44.781Z'
+  'npm:ws:20160920':
+    - browser-sync > socket.io > engine.io > ws:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io-client > engine.io-client > ws:
+        patched: '2017-12-14T18:23:44.781Z'
+    - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2017-12-14T18:23:44.781Z'
