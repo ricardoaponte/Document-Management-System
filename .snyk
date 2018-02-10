@@ -146,6 +146,8 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk:
         patched: '2017-12-14T18:23:44.781Z'
+    - coveralls > log-driver > codecov.io > request > hawk:
+        patched: '2018-02-10T06:18:28.190Z'
   'npm:minimatch:20160620':
     - jasmine-node > gaze > fileset > minimatch:
         patched: '2017-12-14T18:23:44.781Z'
@@ -227,6 +229,8 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - phantomjs > request:
         patched: '2017-12-14T18:23:44.781Z'
+    - coveralls > log-driver > codecov.io > request:
+        patched: '2018-02-10T06:18:28.190Z'
   'npm:tough-cookie:20170905':
     - phantomjs > request > tough-cookie:
         patched: '2017-12-14T18:23:44.781Z'
