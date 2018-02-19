@@ -79,7 +79,7 @@
     "isparta": "^4.0.0",
     "istanbul": "^0.4.1",
     "jade": "^1.11.0",
-    "jasmine-core": "^2.6.4",
+    "jasmine-core": "^3.0.0",
     "jasmine-node": "^1.14.5",
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
@@ -103,7 +103,7 @@
     "sinon": "^1.17.3",
     "standard": "^6.0.0",
     "supertest": "^3.0.0",
-    "validator": "^4.3.0",
+    "validator": "^9.4.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "snyk": "^1.59.1"
