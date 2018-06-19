@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,28 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:hoek:20180212':
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > sntp > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - phantomjs > request > hawk > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T01:18:43.951Z'
