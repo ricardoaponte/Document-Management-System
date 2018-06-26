@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,31 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:mime:20170907':
+    - codecov.io > request > form-data > mime:
+        patched: '2018-06-26T01:21:47.730Z'
+  'npm:tunnel-agent:20170305':
+    - optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - codecov.io > request > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - phantomjs > request > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-06-26T01:21:47.730Z'
