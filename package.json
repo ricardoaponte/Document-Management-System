@@ -15,7 +15,8 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -84,7 +85,7 @@
     "jshint": "^2.9.1",
     "jshint-stylish": "^2.1.0",
     "jsonwebtoken": "7.4.1",
-    "karma": "^0.13.19",
+    "karma": "^2.0.0",
     "karma-chrome-launcher": "^0.2.0",
     "karma-coverage": "^0.5.3",
     "karma-firefox-launcher": "^0.1.7",
@@ -96,7 +97,7 @@
     "mocha": "^4.0.0",
     "mongoose": "^4.2.8",
     "morgan": "^1.6.1",
-    "node-mongo-seeds": "^2.2.7",
+    "node-mongo-seeds": "^3.0.2",
     "optipng-bin": "^4.0.0",
     "phantomjs": "^2.1.1",
     "rev": "0.0.1",
@@ -106,7 +107,7 @@
     "validator": "^4.3.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "snyk": "^1.59.1"
+    "snyk": "^1.88.0"
   },
   "config": {
     "commitizen": {
