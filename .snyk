@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -171,6 +171,8 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - jasmine-node > gaze > fileset > glob > minimatch:
         patched: '2017-12-14T18:23:44.781Z'
+    - isparta > istanbul > fileset > minimatch:
+        patched: '2018-07-05T01:18:38.761Z'
   'npm:ms:20170412':
     - browser-sync > connect > debug > ms:
         patched: '2017-12-14T18:23:44.781Z'
