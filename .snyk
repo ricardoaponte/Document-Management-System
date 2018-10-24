@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.12.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -171,6 +171,24 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - jasmine-node > gaze > fileset > glob > minimatch:
         patched: '2017-12-14T18:23:44.781Z'
+    - isparta > istanbul > fileset > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-nodemon > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > rimraf > glob > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-10-24T01:58:43.104Z'
   'npm:ms:20170412':
     - browser-sync > connect > debug > ms:
         patched: '2017-12-14T18:23:44.781Z'
@@ -242,3 +260,28 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:tunnel-agent:20170305':
+    - optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - codecov.io > request > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - optipng-bin > bin-build > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - phantomjs > request > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
+    - gulp-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2018-10-24T01:58:43.104Z'
