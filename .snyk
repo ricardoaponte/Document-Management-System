@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.13.3
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,51 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:debug:20170905':
+    - karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-03-30T05:58:22.345Z'
+  'npm:hoek:20180212':
+    - gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > sntp > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - phantomjs > request > hawk > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - phantomjs > request > hawk > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > boom > hoek:
+        patched: '2019-03-30T05:58:22.345Z'
+  'npm:http-signature:20150122':
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > http-signature:
+        patched: '2019-03-30T05:58:22.345Z'
+    - codecov.io > request > http-signature:
+        patched: '2019-03-30T05:58:22.345Z'
+  'npm:lodash:20180130':
+    - karma-phantomjs2-launcher > lodash:
+        patched: '2019-03-30T05:58:22.345Z'
+  'npm:mime:20170907':
+    - codecov.io > request > form-data > mime:
+        patched: '2019-03-30T05:58:22.345Z'
+  'npm:tunnel-agent:20170305':
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        patched: '2019-03-30T05:58:22.345Z'
+    - codecov.io > request > tunnel-agent:
+        patched: '2019-03-30T05:58:22.345Z'
+    - phantomjs > request > tunnel-agent:
+        patched: '2019-03-30T05:58:22.345Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2019-03-30T05:58:22.345Z'
