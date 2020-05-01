@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,90 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  SNYK-JS-LODASH-567746:
+    - commitizen > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - gulp-istanbul > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - gulp-jshint > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - jshint > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - commitizen > inquirer > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - gulp-istanbul > istanbul-threshold-checker > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - mongoose > async > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - standard > eslint > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - commitizen > opencollective > inquirer > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - jasmine-node > gaze > globule > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - standard > eslint > table > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - phantomjs > request > form-data > async > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-generator > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-template > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
+    - isparta > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T05:56:22.291Z'
