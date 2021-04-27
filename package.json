@@ -103,7 +103,7 @@
     "sinon": "^1.17.3",
     "standard": "^6.0.0",
     "supertest": "^3.0.0",
-    "validator": "^4.3.0",
+    "validator": "^13.6.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
     "snyk": "^1.59.1"
