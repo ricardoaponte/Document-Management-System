@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.21.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,34 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:hoek:20180212':
+    - gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > boom > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > sntp > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-30T20:22:48.778Z'
+  'npm:http-signature:20150122':
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > http-signature:
+        patched: '2021-07-30T20:22:48.778Z'
+  'npm:lodash:20180130':
+    - karma-phantomjs2-launcher > lodash:
+        patched: '2021-07-30T20:22:48.778Z'
+  'npm:tunnel-agent:20170305':
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2021-07-30T20:22:48.778Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        patched: '2021-07-30T20:22:48.778Z'
+  'npm:uglify-js:20150824':
+    - gulp-jade > jade > transformers > uglify-js:
+        patched: '2021-07-30T20:22:48.778Z'
