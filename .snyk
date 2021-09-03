@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.10.1
+version: v1.21.5
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:debug:20170905':
@@ -242,3 +242,38 @@ patch:
         patched: '2017-12-14T18:23:44.781Z'
     - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
         patched: '2017-12-14T18:23:44.781Z'
+  'npm:hoek:20180212':
+    - gulp-coveralls > coveralls > request > hawk > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - gulp-coveralls > coveralls > request > hawk > boom > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > boom > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - gulp-coveralls > coveralls > request > hawk > sntp > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > sntp > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - gulp-coveralls > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T20:07:12.866Z'
+  'npm:http-signature:20150122':
+    - codecov.io > request > http-signature:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > http-signature:
+        patched: '2021-09-03T20:07:12.866Z'
+  'npm:lodash:20180130':
+    - karma-phantomjs2-launcher > lodash:
+        patched: '2021-09-03T20:07:12.866Z'
+  'npm:mime:20170907':
+    - codecov.io > request > form-data > mime:
+        patched: '2021-09-03T20:07:12.866Z'
+  'npm:tunnel-agent:20170305':
+    - codecov.io > request > tunnel-agent:
+        patched: '2021-09-03T20:07:12.866Z'
+    - gulp-coveralls > coveralls > request > tunnel-agent:
+        patched: '2021-09-03T20:07:12.866Z'
+    - karma-phantomjs2-launcher > phantomjs2-ext > request > tunnel-agent:
+        patched: '2021-09-03T20:07:12.866Z'
