@@ -37,7 +37,7 @@
     "async-array": "^0.2.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.14.1",
-    "browser-sync": "^2.11.0",
+    "browser-sync": "^3.0.3",
     "browserify": "^13.0.0",
     "chai": "^3.4.1",
     "codecov.io": "^0.1.6",
